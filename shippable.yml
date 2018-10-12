@@ -2,6 +2,10 @@ env:
   global:
     - secure: WQyiXxXivtlGOITqiRMZMENJxCflhWkll/TQbDodyM93Ge86REGqMsgsvf5asQrwWye/skJ06GeGFPt4/sHHAxqlMcTNYCeGDCZVw+FR2X1VQEgmGK8ebMgJXhyQugQN+mvMrbdwMxqvu/KGxCBvnNSZKdIbsvC0qOQuSYOeapfI8G44hEUrwCUUVJSSG/zA4XInfWRPGB2Ii52yaqP3n/cKU5MD6UWXwcj6frVQQinO1tN4HgLh/i0cUXscS/OM1tVaU32uw2T1WfVLPQnAD+cbalitHM13wdeXxe81wjDv12/hK7QZnd7ns8IgMUy7ZNaYWijkcraXxPwkYmf62g==
 
+language: java
+jdk:
+  - oraclejdk8
+
 build:
   before_install:
     #- "sudo apt-get update -qq"
