@@ -14,5 +14,5 @@ build:
     - 'aws sts get-caller-identity'
     - 'cp README.md s3item.txt'
   on_success:
-    - aws s3 cp s3item.txt "s3://iba-shiipable/" --region "eu-west-1"
+    - aws s3 cp s3item.txt "s3://iba-shippable/" --region "eu-west-1"
 
